@@ -1,3 +1,5 @@
+[**English**](README.md) | [Українська](README.uk.md)
+
 # MongoDB CRUD + Quotes Scraper
 
 Two-part homework:
