@@ -2,8 +2,8 @@
 
 Two-part homework:
 
-- **`first/`** — basic CRUD over a MongoDB Atlas collection of cats (`name`, `age`, `features`).
-- **`second/`** — a web scraper for [quotes.toscrape.com](https://quotes.toscrape.com) that walks every page, dumps `quotes.json` and `authors.json`, and seeds them into MongoDB.
+- **`first/`** - basic CRUD over a MongoDB Atlas collection of cats (`name`, `age`, `features`).
+- **`second/`** - a web scraper for [quotes.toscrape.com](https://quotes.toscrape.com) that walks every page, dumps `quotes.json` and `authors.json`, and seeds them into MongoDB.
 
 ## Stack
 
@@ -23,12 +23,12 @@ cp .env.example .env
 ## Run
 
 ```bash
-# Part 1 — CRUD CLI
+# Part 1 - CRUD CLI
 cd first
 pip install -r requirements.txt
 python main.py
 
-# Part 2 — scrape + seed
+# Part 2 - scrape + seed
 cd ../second
 pip install -r requirements.txt
 python parsing.py        # writes quotes.json + authors.json
